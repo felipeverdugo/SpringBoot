@@ -1,0 +1,56 @@
+# Ignorar la carpeta target, donde Maven genera artefactos compilados
+/target/
+
+# Ignorar archivos de configuración de Eclipse
+/.project
+/.classpath
+/.settings/
+
+
+
+# Ignorar archivos de configuración de NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignorar Maven Wrapper archivos binarios
+/.mvn/wrapper/maven-wrapper.jar
+
+# Incluir el script de Maven Wrapper para que funcione en cualquier máquina
+!.mvn/wrapper/MavenWrapperDownloader.java
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+
+# Ignorar archivos de sistema operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de respaldo y temporales
+*.log
+*.out
+*.bak
+*.swp
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
